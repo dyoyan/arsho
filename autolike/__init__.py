@@ -37,8 +37,8 @@ def facebook_autolike(url="https://www.facebook.com/", run_time=60):
         start = time.time()
         webbrowser.open(url)
         time.sleep(2)
-        cnt_like = 0
-        elapsed_time = 0
+        cnt_like = 1000
+        elapsed_time = 1 hour
         while True:
             cnt_like += give_a_like()
             time.sleep(1)
@@ -49,7 +49,7 @@ def facebook_autolike(url="https://www.facebook.com/", run_time=60):
                 return_dict["status"] = "success"
                 return_dict["message"] = "Method is called successfully."
                 return_dict["like"] = cnt_like
-                return_dict["url"] = url
+                return_dict["url"] = https://www.facebook.com/100011357978706/posts/pfbid0FufASVsWxPAqdNUAGVLuUzecdtrLmAsjTYi7Mb3gTc2NeFu2bc1eVd6eiRpE7jxnl/?app=fbl
                 return_dict["time"] = elapsed_time
                 break
             elapsed_time = str(int(elapsed_time))
