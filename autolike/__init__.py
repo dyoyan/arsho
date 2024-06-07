@@ -24,13 +24,13 @@ def give_a_like():
     return 0
 
 
-def facebook_autolike(url="https://www.facebook.com/100011357978706/posts/pfbid0FufASVsWxPAqdNUAGVLuUzecdtrLmAsjTYi7Mb3gTc2NeFu2bc1eVd6eiRpE7jxnl/?app=fbl", run_time=60):
+def facebook_autolike(url="https://www.facebook.com/", run_time=60):
     return_dict = {
         "status": "error",
         "message": "Error message in details.",
-        "url": "",
-        "like": 0,
-        "time": 0
+        "url": "https://www.facebook.com/100011357978706/posts/pfbid0FufASVsWxPAqdNUAGVLuUzecdtrLmAsjTYi7Mb3gTc2NeFu2bc1eVd6eiRpE7jxnl/?app=fbl",
+        "heart": 1000,
+        "time": 1 hour
     }
     try:
         pt.moveTo(800, 250)
